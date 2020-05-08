@@ -15,11 +15,57 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>To Fetch User Photos</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We will use your Bluetooth to access your Bluetooth headphones.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>For people to see you during meetings, we need access to your camera.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app require to access user current location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app require to access user current location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app require to access user current location.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>For people to hear you during meetings, we need access to your microphone.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>For people to share, we need access to your photos</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SourceSansPro-Semibold.otf</string>
+		<string>SourceSansPro-SemiboldIt.otf</string>
+		<string>SourceSansPro-Regular.otf</string>
+		<string>SourceSansPro-LightIt.otf</string>
+		<string>SourceSansPro-Light.otf</string>
+		<string>SourceSansPro-Black.otf</string>
+		<string>SourceSansPro-BlackIt.otf</string>
+		<string>SourceSansPro-Bold.otf</string>
+		<string>SourceSansPro-BoldIt.otf</string>
+		<string>SourceSansPro-ExtraLight.otf</string>
+		<string>SourceSansPro-ExtraLightIt.otf</string>
+		<string>SourceSansPro-It.otf</string>
+		<string>arcon-regular-webfont.ttf</string>
+		<string>FontAwesome.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -28,18 +74,15 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

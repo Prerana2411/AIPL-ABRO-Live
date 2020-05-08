@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="arcon-regular-webfont.ttf">
+            <string>Arcon-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SpecialDiscountView" id="iN0-l3-epB" customClass="SpecialDiscountView" customModule="AIPL_ABRO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="170"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dr3-CM-Qmp">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="170"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="es4-dJ-d3g">
+                    <rect key="frame" x="1" y="1" width="298" height="168"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7k-9R-aKX">
+                            <rect key="frame" x="0.0" y="10" width="3" height="20"/>
+                            <color key="backgroundColor" red="0.11932703109999999" green="0.31634050609999997" blue="0.54350596669999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="3" id="bLw-C5-y72"/>
+                                <constraint firstAttribute="height" constant="20" id="gN6-ww-rI2"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#OnSpecialDiscount" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcB-hY-oZq">
+                            <rect key="frame" x="11" y="10" width="110" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="w5n-SB-SKF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="15"/>
+                            <color key="textColor" red="0.93040126560000003" green="0.19467395539999999" blue="0.21485221390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="12"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hardware Products" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Voo-Wn-xsT">
+                            <rect key="frame" x="15" y="50" width="188" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="wSl-Er-cl4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="18"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="13"/>
+                            </variation>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ab-Zs-sNV">
+                            <rect key="frame" x="208" y="44" width="80" height="80"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sandpaper" translatesAutoresizingMaskIntoConstraints="NO" id="xUj-21-Zaa">
+                                    <rect key="frame" x="15" y="15" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="gCB-UX-5GH"/>
+                                        <constraint firstAttribute="height" constant="50" id="hF8-oJ-8Ox"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.83166366820000004" green="0.17522749300000001" blue="0.19158929590000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="xUj-21-Zaa" firstAttribute="centerY" secondItem="7ab-Zs-sNV" secondAttribute="centerY" id="CGz-rj-2jz"/>
+                                <constraint firstItem="xUj-21-Zaa" firstAttribute="centerY" secondItem="7ab-Zs-sNV" secondAttribute="centerY" id="Sv8-Wh-8Zr"/>
+                                <constraint firstItem="xUj-21-Zaa" firstAttribute="centerX" secondItem="7ab-Zs-sNV" secondAttribute="centerX" id="U3K-nB-kpz"/>
+                                <constraint firstAttribute="height" constant="80" id="XrR-BT-JIx"/>
+                                <constraint firstAttribute="width" constant="80" id="zuA-49-A5i"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mF7-fc-ecz">
+                            <rect key="frame" x="25" y="110" width="85" height="30"/>
+                            <color key="backgroundColor" red="0.93054389950000005" green="0.19668453929999999" blue="0.21407341960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="85" id="S9j-eS-gpo"/>
+                                <constraint firstAttribute="height" constant="30" id="y6q-TT-IeL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="16"/>
+                            <state key="normal" title="View All">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="mF7-fc-ecz" firstAttribute="top" secondItem="Voo-Wn-xsT" secondAttribute="bottom" constant="20" id="0Ku-FB-RJO"/>
+                        <constraint firstItem="EcB-hY-oZq" firstAttribute="centerY" secondItem="p7k-9R-aKX" secondAttribute="centerY" id="8hB-KO-jZ7"/>
+                        <constraint firstAttribute="trailing" secondItem="7ab-Zs-sNV" secondAttribute="trailing" constant="10" id="UV7-WX-MVg"/>
+                        <constraint firstItem="Voo-Wn-xsT" firstAttribute="leading" secondItem="es4-dJ-d3g" secondAttribute="leading" constant="15" id="XbZ-Zi-sdd"/>
+                        <constraint firstItem="p7k-9R-aKX" firstAttribute="top" secondItem="es4-dJ-d3g" secondAttribute="top" constant="10" id="Xtu-D2-ce7"/>
+                        <constraint firstItem="Voo-Wn-xsT" firstAttribute="top" secondItem="EcB-hY-oZq" secondAttribute="bottom" constant="20" id="Xxb-bD-fKO"/>
+                        <constraint firstItem="7ab-Zs-sNV" firstAttribute="leading" secondItem="Voo-Wn-xsT" secondAttribute="trailing" constant="5" id="hyf-zp-YH8"/>
+                        <constraint firstItem="mF7-fc-ecz" firstAttribute="leading" secondItem="es4-dJ-d3g" secondAttribute="leading" constant="25" id="jIl-XQ-k0Q"/>
+                        <constraint firstItem="p7k-9R-aKX" firstAttribute="leading" secondItem="es4-dJ-d3g" secondAttribute="leading" id="tjU-sX-i4X"/>
+                        <constraint firstItem="EcB-hY-oZq" firstAttribute="leading" secondItem="p7k-9R-aKX" secondAttribute="trailing" constant="8" id="tus-a8-Ik8"/>
+                        <constraint firstItem="7ab-Zs-sNV" firstAttribute="centerY" secondItem="es4-dJ-d3g" secondAttribute="centerY" id="wad-hP-cBk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="es4-dJ-d3g" secondAttribute="bottom" constant="1" id="21u-1l-5U1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="es4-dJ-d3g" secondAttribute="trailing" constant="1" id="49J-E0-jXt"/>
+                <constraint firstItem="Dr3-CM-Qmp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4cv-8E-Uhi"/>
+                <constraint firstItem="Dr3-CM-Qmp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4kY-ke-nip"/>
+                <constraint firstItem="es4-dJ-d3g" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="1" id="5Ag-4L-N2l"/>
+                <constraint firstAttribute="trailing" secondItem="Dr3-CM-Qmp" secondAttribute="trailing" id="Fxo-gX-ZHa"/>
+                <constraint firstItem="es4-dJ-d3g" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="1" id="rNB-Bx-og3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Dr3-CM-Qmp" secondAttribute="bottom" id="sfH-DJ-ls9"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="carouselCornerRadiusView_View" destination="es4-dJ-d3g" id="WiK-jT-Awy"/>
+                <outlet property="carouselFrontView_View" destination="Dr3-CM-Qmp" id="OuK-Fb-zeL"/>
+                <outlet property="carouselImageView_View" destination="7ab-Zs-sNV" id="ZRt-0l-QJ1"/>
+                <outlet property="offerCategory_label" destination="Voo-Wn-xsT" id="iPb-Tw-6y9"/>
+                <outlet property="offerProductImage_ImageView" destination="xUj-21-Zaa" id="bY7-R0-6dA"/>
+                <outlet property="offerType_label" destination="EcB-hY-oZq" id="RkD-b9-JxP"/>
+                <outlet property="offerViewAll_button" destination="mF7-fc-ecz" id="EwM-vw-iol"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="-148"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sandpaper" width="1138" height="912"/>
+    </resources>
+</document>

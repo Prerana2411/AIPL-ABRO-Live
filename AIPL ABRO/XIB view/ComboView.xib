@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="arcon-regular-webfont.ttf">
+            <string>Arcon-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ComboView" id="wvH-gA-Y0f" customClass="ComboView" customModule="AIPL_ABRO">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="170"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GAY-PK-lKN">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="170"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJu-tz-fk2">
+                    <rect key="frame" x="1" y="1" width="298" height="168"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comboImage" translatesAutoresizingMaskIntoConstraints="NO" id="qTC-eW-arG">
+                            <rect key="frame" x="2" y="2" width="294" height="164"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PGA-6T-ObE">
+                            <rect key="frame" x="2" y="2" width="294" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coupon Code :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1S-if-wf1">
+                                    <rect key="frame" x="10" y="8" width="160" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="2Ac-Z9-xcy"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="9"/>
+                                    </variation>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offer Till : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEK-ad-NTG">
+                                    <rect key="frame" x="180" y="8" width="110" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="3Rn-Z6-kuV"/>
+                                        <constraint firstAttribute="width" constant="110" id="LYd-rG-j30"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="9"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.38703981164383561" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="TEK-ad-NTG" firstAttribute="leading" secondItem="W1S-if-wf1" secondAttribute="trailing" constant="10" id="1Az-3u-6b3"/>
+                                <constraint firstItem="W1S-if-wf1" firstAttribute="leading" secondItem="PGA-6T-ObE" secondAttribute="leading" constant="10" id="3nb-6j-ecv"/>
+                                <constraint firstAttribute="bottom" secondItem="W1S-if-wf1" secondAttribute="bottom" constant="8" id="8gy-eK-Kyt"/>
+                                <constraint firstAttribute="trailing" secondItem="TEK-ad-NTG" secondAttribute="trailing" constant="4" id="HAX-jY-cdf"/>
+                                <constraint firstItem="W1S-if-wf1" firstAttribute="top" secondItem="PGA-6T-ObE" secondAttribute="top" constant="8" id="HKt-jg-0DG"/>
+                                <constraint firstAttribute="bottom" secondItem="TEK-ad-NTG" secondAttribute="bottom" constant="8" id="S6v-SX-4EK"/>
+                                <constraint firstAttribute="height" constant="36" id="bV3-qM-zD4"/>
+                                <constraint firstItem="TEK-ad-NTG" firstAttribute="top" secondItem="PGA-6T-ObE" secondAttribute="top" constant="8" id="euG-2T-ZCW"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEl-W1-u1B">
+                            <rect key="frame" x="2" y="130" width="294" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aF3-tX-UZ7">
+                                    <rect key="frame" x="10" y="8" width="274" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="nbx-th-jcN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" name="Arcon-Regular" family="Arcon" pointSize="10"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.38703981164383561" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="aF3-tX-UZ7" secondAttribute="trailing" constant="10" id="6TD-XL-CTw"/>
+                                <constraint firstItem="aF3-tX-UZ7" firstAttribute="top" secondItem="pEl-W1-u1B" secondAttribute="top" constant="8" id="bYz-zh-Tba"/>
+                                <constraint firstAttribute="bottom" secondItem="aF3-tX-UZ7" secondAttribute="bottom" constant="8" id="eBO-Rx-Aq6"/>
+                                <constraint firstItem="aF3-tX-UZ7" firstAttribute="leading" secondItem="pEl-W1-u1B" secondAttribute="leading" constant="10" id="ffy-qE-Ups"/>
+                                <constraint firstAttribute="height" constant="36" id="jBq-Kz-k2j"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="pEl-W1-u1B" firstAttribute="leading" secondItem="KJu-tz-fk2" secondAttribute="leading" constant="2" id="1P1-d0-uuT"/>
+                        <constraint firstAttribute="trailing" secondItem="pEl-W1-u1B" secondAttribute="trailing" constant="2" id="3y8-ST-e9W"/>
+                        <constraint firstAttribute="trailing" secondItem="PGA-6T-ObE" secondAttribute="trailing" constant="2" id="51u-yk-uIt"/>
+                        <constraint firstItem="qTC-eW-arG" firstAttribute="leading" secondItem="KJu-tz-fk2" secondAttribute="leading" constant="2" id="7zb-Ar-PkX"/>
+                        <constraint firstItem="PGA-6T-ObE" firstAttribute="top" secondItem="KJu-tz-fk2" secondAttribute="top" constant="2" id="8De-Op-iRo"/>
+                        <constraint firstItem="qTC-eW-arG" firstAttribute="top" secondItem="KJu-tz-fk2" secondAttribute="top" constant="2" id="AVS-Xu-ksO"/>
+                        <constraint firstItem="PGA-6T-ObE" firstAttribute="leading" secondItem="KJu-tz-fk2" secondAttribute="leading" constant="2" id="GQ0-kO-uXk"/>
+                        <constraint firstAttribute="bottom" secondItem="qTC-eW-arG" secondAttribute="bottom" constant="2" id="Hjo-Uc-Rsq"/>
+                        <constraint firstAttribute="bottom" secondItem="pEl-W1-u1B" secondAttribute="bottom" constant="2" id="LFk-Fd-XqI"/>
+                        <constraint firstAttribute="trailing" secondItem="qTC-eW-arG" secondAttribute="trailing" constant="2" id="lVc-Zx-vZ9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GAY-PK-lKN" firstAttribute="top" secondItem="ykK-NC-YpA" secondAttribute="top" id="2se-yM-pkd"/>
+                <constraint firstItem="KJu-tz-fk2" firstAttribute="leading" secondItem="ykK-NC-YpA" secondAttribute="leading" constant="1" id="Hic-lm-Nao"/>
+                <constraint firstItem="ykK-NC-YpA" firstAttribute="trailing" secondItem="GAY-PK-lKN" secondAttribute="trailing" id="Ie9-HE-XhI"/>
+                <constraint firstItem="ykK-NC-YpA" firstAttribute="trailing" secondItem="KJu-tz-fk2" secondAttribute="trailing" constant="1" id="Sqj-Sn-Lcl"/>
+                <constraint firstItem="KJu-tz-fk2" firstAttribute="top" secondItem="ykK-NC-YpA" secondAttribute="top" constant="1" id="dbC-0n-Dgz"/>
+                <constraint firstItem="ykK-NC-YpA" firstAttribute="bottom" secondItem="KJu-tz-fk2" secondAttribute="bottom" constant="1" id="fvK-mO-0ja"/>
+                <constraint firstItem="GAY-PK-lKN" firstAttribute="leading" secondItem="ykK-NC-YpA" secondAttribute="leading" id="nt7-XN-frQ"/>
+                <constraint firstItem="ykK-NC-YpA" firstAttribute="bottom" secondItem="GAY-PK-lKN" secondAttribute="bottom" id="qd4-3G-cnh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ykK-NC-YpA"/>
+            <connections>
+                <outlet property="carouselCornerRadiusView_View" destination="KJu-tz-fk2" id="DpD-rs-n0v"/>
+                <outlet property="carouselFullView_View" destination="GAY-PK-lKN" id="fau-Mo-mGn"/>
+                <outlet property="comboImage_ImageView" destination="qTC-eW-arG" id="pNO-Yv-OyZ"/>
+                <outlet property="couponCode_label" destination="W1S-if-wf1" id="z9t-Zc-4cc"/>
+                <outlet property="offerTill_label" destination="TEK-ad-NTG" id="Ojh-mT-Sag"/>
+                <outlet property="offer_label" destination="aF3-tX-UZ7" id="r4c-rE-JX0"/>
+            </connections>
+            <point key="canvasLocation" x="298" y="109"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="comboImage" width="16" height="16"/>
+    </resources>
+</document>
